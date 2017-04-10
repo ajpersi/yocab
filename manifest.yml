@@ -1,0 +1,12 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: yocab
+  host: yocab
+  disk_quota: 1024M
+  services:
+  - yocab-cloudantNoSQLDB
+  - yocab-iotf-service
+  - Weather Company Data-o3
